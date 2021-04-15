@@ -20,7 +20,7 @@ weather_form.addEventListener('submit',(e) => {
             f_msg.textContent=data.area
             s_msg.textContent='its currently ' + data.forecast.weather_type + ' in ' + data.area
             console.log(data.location)
-            console.log('its currently ' + data.forecast.weather_type + ' in ' + data.area);
+            console.log('its currently ' + data.forecast.weather_type + ' in ' + data.area + '. While, Temperature in ' + data.area + ' is ' + data.forecast.temperature + 'degC .');
         }
     })
     })
